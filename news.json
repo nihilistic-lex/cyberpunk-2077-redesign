@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Apex Legends meets Cyberpunk",
+        "date": "— 07.07.26",
+        "link": "https://www.cyberpunk.net/en/news/51990/cyberpunk-is-coming-to-apex-legends",
+        "img": "./assets/arasaka.webp"
+    },
+    {
+        "title": "Cyberpunk: Edgerunners 2 teaser trailer",
+        "date": "— 29.06.26",
+        "link": "https://www.cyberpunk.net/en/news/51984/just-released-cyberpunk-edgerunners-2-official-teaser-2",
+        "img": "./assets/ez.webp"
+    },
+    {
+        "title": "It's all about you! A crew to remember",
+        "date": "— 10.06.26",
+        "link": "https://www.cyberpunk.net/en/news/51972/its-all-about-you-night-city-legends-a-crew-to-remember",
+        "img": "./assets/auto-fixer.webp"
+    },
+    {
+        "title": "Photo mode contest",
+        "date": "— 12.12.25",
+        "link": "https://www.cyberpunk.net/en/news/51877/city-of-legends-photo-mode-contest",
+        "img": "./assets/ncpd.webp"
+    },
+    {
+        "title": "Cyberpunk 2077 5th anniversary trailer",
+        "date": "— 10.12.25",
+        "link": "https://www.cyberpunk.net/en/news/51874/cyberpunk-2077-5th-anniversary-trailer-city-of-legends",
+        "img": "./assets/samurai.webp"
+    },
+    {
+        "title": "Update 2.3 patch notes",
+        "date": "— 16.07.25",
+        "link": "https://www.cyberpunk.net/en/news/51674/update-2-3-patch-notes",
+        "img": "./assets/militech.webp"
+    }
+]

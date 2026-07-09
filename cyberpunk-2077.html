@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cyberpunk 2077</title>
+        <link rel="stylesheet" href="cyberpunk-2077.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/b8623ad47f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- logo and navbar -->
+        <header>
+            <nav>
+                <a href="https://www.cyberpunk.net/us/en/" target="_blank">
+                    <img src="https://www.cyberpunk.net/build/images/home8/logo-franchise-black-en@1x-567991b0.png" alt="Cyberpunk logo" class="cyberpunk-header-logo">
+                </a>
+                <div class="nav-links-container">
+                    <button id="nav-btn" aria-label="toggle navigation">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <ul class="nav-links">
+                        <li>
+                            <a href="#games">Games</a>
+                            <span aria-hidden="true">☢</span>
+                        </li>
+                        <li>
+                            <a href="#shows">Shows</a>
+                            <span aria-hidden="true">☢</span>
+                        </li>
+                        <li>
+                            <a href="#news">News</a>
+                            <span aria-hidden="true">☢</span>
+                        </li>
+                        <li>
+                            <a href="https://www.cyberpunk.net/gb/en/buy" target="_blank">Buy Now</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <!-- cover section -->
+            <div class="cover-img">
+                <img src="/assets/cyberpunk-logo.png" alt="Cyberpunk 2077 logo" class="cyberpunk-logo">
+            </div>
+            <!-- game section -->
+            <section id="games" class="container">
+                <!-- game intro -->
+                <div class="loading">
+                    <div class="loading-top">
+                        <span aria-hidden="true">LOADING...</span>
+                        <span class="version" aria-hidden="true">/// V2.31</span>
+                    </div>
+                    <p id="typing-intro"></p>
+                    <p class="game-intro">
+                        Immerse yourself in a dark future as V, a mercenary chasing survival in a world ruled by corruption and violence.
+                        From the towering megacity of Night City to the lawless depths of Dogtown, every choice pulls you deeper into a web of deals, danger, and deception.
+                        In a city that never forgives, the line between survival and betrayal is razor thin.
+                    </p>
+                    <div class="loading-bottom">
+                        <img src="/assets/netwatch.png" alt="Netwatch logo" class="netwatch-logo" aria-hidden="true">
+                        <span class="loading-words" aria-hidden="true">
+                            // Product module...............complete<br>
+                            // Access mode...............available<br>
+                            // Status...............online
+                        </span>
+                    </div>
+                </div>
+                <div class="corners">
+                    <div class="corner top-corner-l"></div>
+                    <div class="corner top-corner-r"></div>
+                </div>
+                <!-- game selection -->
+                <div class="select-container">
+                    <button type="button" class="chevron-btn btn-fade" id="game-chevron-left">
+                        <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+                    </button>
+                    <div class="selection">
+                        <a href="https://www.youtube.com/watch?v=Ugb80d5lxEM" target="_blank" class="trailer-link">
+                            LOAD: trailer_stream.exe
+                        </a>
+                        <a href="https://www.cyberpunk.net/us/en/cyberpunk-2077" target="_blank">
+                            <img src="/assets/cyberpunk-2077.png" class="game-img" alt="cyberpunk-2077-poster">
+                        </a>
+                        <div class="platforms-container">
+                            <div class="platforms">
+                                <img src="assets/svg/ps5.svg" alt="ps5 logo">
+                                <img src="assets/svg/xbox-x.svg" alt="xbox x logo">
+                            </div>
+                            <div class="platforms">
+                                <img src="assets/svg/ps4.svg" slt="ps4 logo">
+                                <img src="assets/svg/xbox-one.svg" alt="xbox one logo">
+                            </div>
+                            <div class="platforms">
+                                <img src="assets/svg/pc.svg" alt="pc logo">
+                                <img src="assets/svg/nintendo-switch.svg" alt="nintendo switch logo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="selection fade">
+                        <a href="https://www.youtube.com/watch?v=P39n86v-T7w" target="_blank" class="trailer-link">
+                            LOAD: trailer_stream.exe
+                        </a>
+                        <a href="https://www.cyberpunk.net/us/en/phantom-liberty" target="_blank">
+                            <img src="/assets/phantom-liberty.png" alt="phantom-liberty-poster" class="game-img">
+                        </a>
+                        <div class="platforms-container">
+                            <div class="platforms">
+                                <img src="assets/svg/ps5.svg" alt="ps5 logo">
+                                <img src="assets/svg/xbox-x.svg" alt="xbox x logo">
+                            </div>
+                            <div class="platforms">
+                                <img src="assets/svg/pc.svg" alt="pc logo">
+                                <img src="assets/svg/nintendo-switch.svg" alt="nintendo switch logo">
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="chevron-btn" id="game-chevron-right">
+                        <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="corners bottom-corners">
+                    <div class="corner bottom-corner-l"></div>
+                    <div class="corner bottom-corner-r"></div>
+                </div>
+            </section>
+            <hr class="divider">
+            <!-- tv show section -->
+            <section id="shows" class="container">
+                <!-- show intro - glitching cracked screen -->
+                <div class="screen-border">
+                    <div class="screen">
+                        <div class="glitch">
+                            <span class="screen-top" aria-hidden="true">
+                                &gt; Status: unstable_<br>
+                                &gt; Accessing file...............failed<br>
+                                // Error: signal_lost_
+                            </span>
+                            <p class="show-intro">
+                                They were street kids trying to survive in a merciless chrome-obsessed city.<br>
+                                They became legends of Night City... but at a cost.<br>
+                                — edgerunner: a mercenary outlaw, a cyberpunk
+                            </p>
+                            <span class="screen-bottom" aria-hidden="true">// connection_terminated_</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="corners">
+                    <div class="corner top-corner-l"></div>
+                    <div class="corner top-corner-r"></div>
+                </div>
+                <div class="brands">
+                    <a href="https://www.netflix.com/" target="_blank">
+                        <img src="assets/svg/netflix-logo.svg" alt="netflix logo">
+                    </a>
+                    <span class="x" aria-hidden="true">X</span>
+                    <a href="https://www.st-trigger.co.jp/" target="_blank">
+                        <img src="assets/svg/trigger-logo.svg" alt="trigger studios logo">
+                    </a>
+                        <span class="x" aria-hidden="true">X</span>
+                    <a href="https://www.cdprojektred.com/" target="_blank">
+                        <img src="assets/svg/cdpr-logo.svg" alt="cd projekt red logo">
+                    </a>
+                </div>
+                <!-- show selection -->
+                <div class="select-container">
+                    <button type="button" class="chevron-btn btn-fade" id="show-chevron-left">
+                        <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+                    </button>
+                    <div class="selection">
+                        <a href="https://www.youtube.com/watch?v=OiR_lMNlJko" target="_blank" class="trailer-link">
+                            LOAD: trailer_stream.exe
+                        </a>
+                        <a href="https://www.cyberpunk.net/en/edgerunners" target="_blank">
+                            <img src="/assets/cyberpunk-edgerunners.PNG" alt="cyberpunk edgerunners poster" class="show-img">
+                        </a>
+                    </div>
+                    <div class="selection fade">
+                        <a href="https://www.youtube.com/watch?v=1CQO-7OKANs" target="_blank" class="trailer-link">
+                            LOAD: teaser_trailer.exe
+                        </a>
+                        <a href="https://www.cyberpunk.net/en/edgerunners2" target="_blank">
+                            <img src="/assets/cyberpunk-edgerunners-2.PNG" alt="cyberpunk edgerunners 2 poster" class="show-img">
+                        </a>
+                    </div>
+                    <button type="button" class="chevron-btn" id="show-chevron-right">
+                        <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="corners bottom-corners">
+                    <div class="corner bottom-corner-l"></div>
+                    <div class="corner bottom-corner-r"></div>
+                </div>
+            </section>
+            <hr class="divider">
+            <!-- news section - replica of in game browser -->
+            <section id="news" class="container">
+                <div class="browser-container">
+                    <div class="browser-top" aria-hidden="true">
+                        <span class="keystone">KEYSTONE</span>
+                        <div class="url-container">
+                            <span>Netdir://NCity.news</span>
+                            <div class="netwatch-browser">
+                                <span class="netwatch-text">Powered by</span>
+                                <img src="/assets/netwatch.png" alt="netwatch logo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-container">
+                        <a href="https://www.cyberpunk.net/en/news/" target="_blank" class="more-news">
+                            <img src="/assets/54news.webp" alt="web logo" class="more-news-img">
+                            More news
+                        </a>
+                        <div id="news-list" class="news-list"></div>
+                    </div>
+                </div>
+            </section>
+            <div class="separator"></div>
+            <!-- newsletter section - computer terminal -->
+            <section class="container newsletter-container">
+                <form class="terminal-container">
+                    <div class="terminal-top">
+                        <h2>Unofficial Cyberpunk 2077 Newsletter</h2>
+                        <img src="assets/relic.png" alt="relic logo" class="relic-logo">
+                    </div>
+                    <div class="terminal">
+                        <span class="terminal-small-text" aria-hidden="true">
+                            Militech PowerShell<br>
+                            PS C:\Users\netrunner_network&gt;
+                        </span>
+                        <p>&gt; Sign up to the official newsletter</p>
+                        <p>&gt; Keep up to date on all things Cyberpunk 2077</p>
+                        <div class="email-container">
+                            <label class="email-text" for="email"> &gt; Enter email address:</label>
+                            <input id="email" type="email" placeholder="example@email.com" required>
+                            <span class="email-cursor" aria-hidden="true">▌</span>
+                        </div>
+                        <p>
+                            &gt; Receive news, special offers, and other information from <span class="bold">CD PROJEKT</span> &gt; 
+                            <button id="no-btn" type="button" class="form-btn yn-highlight" aria-label="no">[ N ]</button>
+                            <span>/</span>
+                            <button id="yes-btn" type="button" class="form-btn" aria-label="yes">[ Y ]</button>
+                        </p>
+                        <div class="terminal-small-text">
+                            <p>
+                                &gt; <span class="bold">CD PROJEKT</span> > responsible for personal data.</p>
+                            <p>&gt; For more information &gt;
+                                <a href="https://regulations.cdprojektred.com/en/privacy_policy" target="_blank">CD PROJEKT Privacy Policy</a>
+                            </p>
+                            <p>
+                                &gt; This site is protected by reCAPTCHA and the Google
+                                <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a>
+                            </p>
+                            <p>   &gt;
+                                <a href="https://policies.google.com/terms" target="_blank">Terms of Service</a>
+                                apply
+                            </p>
+                        </div>
+                        <button type="submit" id="submit" class="form-btn submit-btn" disabled>[ <span class="submit-word">submit</span> ]</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <!-- socials -->
+            <div class="socials">
+                <span>Find us on</span>
+                <ul>
+                    <li>
+                        <a href="https://forums.cdprojektred.com/index.php?forums/cyberpunk.21/" target="_blank">
+                            <img src="assets/svg/cyberpunk-forum.svg" alt="cyberpunk forum logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/user/CyberPunkGame" target="_blank">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FCyberpunkGame" target="_blank">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="x.com/cyberpunkgame" target="_blank">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://discord.com/invite/cyberpunkgame" target="_blank">
+                            <i class="fa-brands fa-discord"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/cyberpunkgame/" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://cyberpunkgame.tumblr.com/" target="_blank">
+                            <i class="fa-brands fa-tumblr"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitch.tv/cdprojektred" target="_blank">
+                            <i class="fa-brands fa-twitch"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="footer-divider">
+            <!-- partners and ratings -->
+            <div class="partners-rating">
+                <div class="partners">
+                    <img src="assets/svg/nvidia.svg" alt="nvidia logo">
+                    <img src="assets/svg/alienware.svg" alt="alienware logo">
+                    <img src="assets/svg/amd-ryzen.svg" alt="amd ryzen logo">
+                </div>
+                <div class="rating">
+                    <a href="https://pegi.info/" target="_blank">
+                        <img src="https://www.cyberpunk.net/build/images/rating-pegi-18-d0690949.png" alt="pegi rating">
+                    </a>
+                    <img src="https://www.cyberpunk.net/build/images/rating-pegi-language-76a25e1a.png" alt="language warning">
+                    <img src="https://www.cyberpunk.net/build/images/rating-pegi-sex-b358d9ae.png" alt="sex warning">
+                    <img src="https://www.cyberpunk.net/build/images/rating-pegi-violence-56a3ae1e.png" alt="violence warning">
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="footer-links">
+                <a href="https://regulations.cdprojektred.com/en/privacy_policy" target="_blank">Terms of Use & Privacy Policy</a>
+                <a href="https://www.cdprojektred.com/en/jobs" target="_blank">Careers</a>
+                <a href="https://regulations.cdprojektred.com/en/user_agreement" target="_blank">User Agreement</a>
+                <a href="https://www.cdprojektred.com/en/fan-content" target="_blank">Fan Content Guidelines</a>
+                <a href="https://www.cyberpunk.net/en/modding-support" target="_blank">REDmod</a>
+            </div>
+            <hr class="footer-divider">
+            <!-- disclaimer -->
+            <div class="disclaimer">
+                <a href="https://www.cdprojektred.com/en" target="_blank">
+                    <img src="assets/svg/cdpr-logo.svg" alt="cd projekt red logo">
+                </a>
+                <p>
+                    Designed and developed by &lt;lexiCodes/&gt; 2026<br>
+                    Inspired by the official <a href="https://www.cyberpunk.net/gb/en/" target="_blank">Cyberpunk 2077 website</a><br>
+                    &copy; CD PROJEKT RED. Cyberpunk 2077 and all related trademarks, logos, and artwork belong to their respective owners. This website is a non-commercial fan project created for educational and portfolio purposes.
+                </p>
+            </div>
+        </footer>
+        <script src="cyberpunk-2077.js"></script>
+    </body>
+</html>
+
+<!-- cspell:ignore dogtown netwatch edgerunner edgerunners projekt netdir militech netrunner alienware ryzen pegi -->
